@@ -1,8 +1,13 @@
 // components/Layout.js
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import { ReactNode } from 'react';
 
-const Layout = ({ children }) => {
+interface LayoutProps {
+  children: ReactNode;
+}
+
+const Layout = ({ children }: LayoutProps) => {
   const router = useRouter();
   return (
     <div style={{ display: 'flex', height: '100vh' }}>
