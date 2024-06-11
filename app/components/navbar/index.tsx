@@ -3,7 +3,7 @@ import Link from "next/link";
 import Logo from "./Logo"
 import Button from "./Button"
 
-const Navbar = () => {
+const Navbar = ({ toggle }: {toggle: () => void} ) => {
     return (
         <>
         <div className="w-full h-20 bg-emerald-800 sticky top-0">
@@ -55,4 +55,3 @@ const Navbar = () => {
 }
 
 export default Navbar;
-
