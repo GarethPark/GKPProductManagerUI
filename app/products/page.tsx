@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function ProductList() {
     return (
       <>
-      <div className="flex justify-center items-center min-h-screen">
+      <div className="flex justify-center items-start min-h-screen">
         <ul className="w-48 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white">
             <li className="w-full px-4 py-2 border-b border-gray-200 rounded-t-lg dark:border-gray-600">
               <Link href={`/products/${1}`}>Go to Product 1</Link>
