@@ -1,7 +1,15 @@
-export default function ProductDetail({
-    params,
-  }: {
-    params: { productId: string };
-  }) {
-    return <h1>Details about product {params.productId}</h1>;
-  }
+
+import React from "react";
+
+const ProductDetails = ({ params }: { params: { productID: string } }) => {
+  const { productID } = params;
+  return (
+    <div className="bg-slate-500 w-96 text-center my-20 p-10 mx-20">
+      <h1>
+        The Product ID is <b>{productID}</b>   
+      </h1>
+    </div>
+  );
+};
+
+export default ProductDetails;
