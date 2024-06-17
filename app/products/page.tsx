@@ -10,13 +10,13 @@ export default function ProductList() {
               <Link href={`/products/${1}`}>Go to Product 1</Link>
             </li>
             <li className="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
-              <Link href={`/products/${1}`}>Go to Product 2</Link>
+              <Link href={`/products/${2}`}>Go to Product 2</Link>
             </li>
             <li className="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
-              <Link href={`/products/${1}`}>Go to Product 3</Link>
+              <Link href={`/products/${3}`}>Go to Product 3</Link>
             </li>
             <li className="w-full px-4 py-2 rounded-b-lg">
-              <Link href={`/products/${1}`}>Go to Product 4</Link>
+              <Link href={`/products/${4}`}>Go to Product 4</Link>
             </li>
         </ul>
       </div>
