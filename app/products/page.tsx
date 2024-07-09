@@ -64,7 +64,7 @@ async function fetchProducts() {
     },
     {
         id: 3,
-        name: "Apple iPad 12",
+        name: "Apple iPad 40",
         category: "Tablet",
         brand: "Apple",
         description: "A powerful iPad.",
